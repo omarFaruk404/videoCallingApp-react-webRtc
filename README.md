@@ -3,12 +3,12 @@
 This project is a simple video calling application built using React for the frontend, Node.js for the backend, Socket.io for real-time communication, and WebRTC for peer-to-peer video streaming.
 
 ## Features
-
 - Real-time video calling between two peers
 - Simple and intuitive user interface
 - Uses WebRTC for low-latency video streaming
 - Supports modern web browsers
-
+<img align="left" src="https://github.com/omarFaruk404/videoCallingApp-react-webRtc/blob/main/lobby.png" alt="Coder GIF" width="600" height="auto">
+<img align="right" src="https://github.com/omarFaruk404/videoCallingApp-react-webRtc/blob/main/rom.png" alt="Coder GIF" width="600" height="auto">
 ## Installation
 
 ### Prerequisites
