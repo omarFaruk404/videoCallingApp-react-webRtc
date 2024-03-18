@@ -21,6 +21,7 @@ This project is a simple video calling application built using React for the fro
 
 ```bash
 git clone https://github.com/omarFaruk404/videoCallingApp-react-webRtc.git
+```
 2. Navigate to the project directory and install necessary dependencies:
 ```bash
 npm install
