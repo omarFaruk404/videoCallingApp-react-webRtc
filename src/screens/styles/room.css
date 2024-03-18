@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+
+.active{
+    opacity: 1;
+    background: #4d6181;
+}
+.container{
+    margin-left: 120px;
+    padding: 2.5% 2.5%;
+
+
+}
+.top-icons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 25px 0;
+
+}
+.top-icons img{
+    width: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+
+}
+.row{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.col-1{
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.col-2{
+    flex-basis: 33%;
+}
+.host-img{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 600px;
+    height: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.myStream{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    right: 10px;
+    top: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controls img{
+    width: 40px;
+    margin: 20px 10px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.controls .call-icon{
+    width: 70px;
+
+}
+.controls img:hover{
+    transform: translateY(-10px);
+
+}
+.joined{
+    background: #182842;
+    border-radius: 15px;
+    padding: 30px 40px 50px;
+    color: #fff;
+
+}
+.joined div{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+
+}
+.joined img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.active{
+    opacity: 1;
+    background: #4d6181;
+}
+

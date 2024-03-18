@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+.lobby-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    width: 400px;
+
+    background-color: #ffffff;
+    padding: 40px 30px;
+  }
+  
+  .lobby-title {
+    text-align: center;
+    font-weight: 700;
+    color: #333;
+  }
+  
+
+  .email-label,
+  .room-label {
+    margin-top: 10px;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .email-input,
+  .room-input {
+    /* margin: 5px 0; */
+    width: 100%;
+    background-color: #e2e2e2;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+  }
+  
+  .join-button {
+    margin-top: 20px;
+    background-color: #4796ff;
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 15px;
+    width: 100%;
+  }
+  
+  .join-button:hover {
+    background-color: #0056b3;
+  }
