@@ -10,7 +10,7 @@ This project is a simple video calling application built using React for the fro
 
 <br/>
 <img align="left" src="https://github.com/omarFaruk404/videoCallingApp-react-webRtc/blob/main/lobby.png" alt="Coder GIF" width="500" height="auto">
-<img align="right" src="https://github.com/omarFaruk404/videoCallingApp-react-webRtc/blob/main/room.png" alt="Coder GIF" width="500" height="auto">
+<img align="left" src="https://github.com/omarFaruk404/videoCallingApp-react-webRtc/blob/main/room.png" alt="Coder GIF" width="500" height="auto">
 <br/>
 ## Installation
 
