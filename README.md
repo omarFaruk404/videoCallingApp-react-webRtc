@@ -22,6 +22,22 @@ This project is a simple video calling application built using React for the fro
 ```bash
 git clone https://github.com/omarFaruk404/videoCallingApp-react-webRtc.git
 ```
-2. Navigate to the project directory and install necessary dependencies:
+2. Navigate to the project directory and install the necessary dependencies:
 ```bash
 npm install
+```
+
+3. Start react react development server:
+```bash
+npm start
+```
+4. Start node server:
+```bash
+cd server && nodemon index.js
+```
+### Usage
+1. Open your web browser and go to http://localhost:3000 to access the application.
+2. Enter your email(any fake email) and room number, then click "Join".
+3. Open an incognito tab or another browser and replicate processes 1 & 2.
+4. The other person should enter the same room ID and join the call.
+Enjoy your video call!
